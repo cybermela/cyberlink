@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Primary SEO -->
+  <title>Cyberlink Pro — Connect with Verified Cyber Analysts & Security Experts</title>
+  <meta name="description" content="Find, hire and collaborate with verified cybersecurity analysts, penetration testers, and cybersec professionals. Profiles, reviews, secure messaging, and project matchmaking." />
+  <link rel="canonical" href="https://yourdomain.com/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Cyberlink Pro — Connect with Cybersecurity Experts" />
+  <meta property="og:description" content="Hire verified cyber analysts, post security tasks, and collaborate on incident response and pentests." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:image" content="/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Robots & indexing control -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Structured Data (JSON-LD) for SEO & rich results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Cyberlink Pro",
+    "url": "https://yourdomain.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourdomain.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Basic styling (kept in page for single-file portability). Move to styles.css for production. -->
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#00d4ff; --muted:#9aa6b2; --glass: rgba(255,255,255,0.03);
+      --max:1100px; --radius:14px;
+      color-scheme: dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#081020 0%, #08162a 100%);color:#e6eef6}
+    a{color:var(--accent);text-decoration:none}
+    header{width:100%;backdrop-filter: blur(6px);position:sticky;top:0;z-index:40}
+    .container{max-width:var(--max);margin:0 auto;padding:28px}
+
+    .nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7b61ff);display:grid;place-items:center;font-weight:700}
+    nav ul{display:flex;gap:14px;list-style:none;margin:0;padding:0}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:48px 0}
+    .hero h1{font-size:32px;margin:0 0 12px;line-height:1.03}
+    .hero p{color:var(--muted);margin:0 0 20px}
+
+    .search-card{background:linear-gradient(180deg,var(--glass),transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+    .search-row{display:flex;gap:8px}
+    .search-row input{flex:1;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    .btn{background:linear-gradient(90deg,var(--accent),#7b61ff);padding:10px 14px;border-radius:10px;border:none;color:#04101a;font-weight:600;cursor:pointer}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .profiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .profile{display:flex;gap:12px;align-items:flex-start}
+    .avatar{width:64px;height:64px;border-radius:12px;flex-shrink:0;background:linear-gradient(180deg,#123 0%, #456 100%);display:grid;place-items:center;font-weight:700}
+    .profile h4{margin:0;font-size:15px}
+    .profile p{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+    .features{display:flex;gap:12px;margin-top:18px}
+    .feature{flex:1;padding:14px;border-radius:10px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.02)}
+
+    footer{padding:28px 0;margin-top:40px;color:var(--muted)}
+
+    /* Responsive */
+    @media (max-width:920px){.hero{grid-template-columns:1fr;}.profiles{grid-template-columns:1fr}.brand .hide-sm{display:none}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden>CL</div>
+        <div>
+          <a href="/" style="font-weight:700;font-size:16px">Cyberlink Pro</a>
+          <div style="font-size:12px;color:var(--muted)">Verified security talent marketplace</div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#profiles">Profiles</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact" class="btn">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div>
+        <h1 id="hero-heading">Hire verified cyber analysts, pentesters & incident responders</h1>
+        <p>Match with vetted security professionals — short audits, long-term engagements, emergency incident response, and training.</p>
+
+        <div class="card" style="margin-top:18px">
+          <form id="searchForm" class="search-card" aria-label="Search experts">
+            <label for="q" class="sr-only">Search roles, skills or location</label>
+            <div class="search-row">
+              <input id="q" name="q" placeholder="e.g. penetration tester, incident response, threat intel" autocomplete="off" />
+              <button class="btn" type="submit">Search</button>
+            </div>
+            <div style="margin-top:10px;color:var(--muted);font-size:13px">Filter: <strong>Remote</strong> · <strong>Hourly</strong> · <strong>Verified</strong></div>
+          </form>
+        </div>
+
+        <div class="features" aria-hidden>
+          <div class="feature"><strong>Verified Profiles</strong><div style="color:var(--muted);font-size:13px">Background checks & test tasks</div></div>
+          <div class="feature"><strong>Secure Messaging</strong><div style="color:var(--muted);font-size:13px">End-to-end project chats</div></div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin-top:0;margin-bottom:8px">Featured experts</h3>
+          <div class="profiles" id="profiles">
+            <article class="profile" data-id="p1">
+              <div class="avatar" aria-hidden>AR</div>
+              <div>
+                <h4>Arun R. — Penetration Tester</h4>
+                <p>10 yrs experience · India · Top 5% · $40/hr</p>
+              </div>
+            </article>
+
+            <article class="profile" data-id="p2">
+              <div class="avatar" aria-hidden>ML</div>
+              <div>
+                <h4>Mala S. — Incident Responder</h4>
+                <p>Former SOC Lead · 8 yrs · $60/hr</p>
+              </div>
+            </article>
+          </div>
+
+          <div style="margin-top:12px;text-align:center"><a href="#profiles" aria-label="See all profiles">See all experts →</a></div>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="card">
+          <h4 style="margin:0 0 8px">Post a job / task</h4>
+          <p style="margin:0 0 12px;color:var(--muted);font-size:13px">Quickly publish a task and receive proposals from vetted professionals.</p>
+          <a href="#contact" class="btn" style="display:inline-block">Post Task</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="services" style="margin-top:22px">
+      <h2>Services we support</h2>
+      <p style="color:var(--muted)">From vulnerability assessments to full red-team engagements.</p>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px">
+        <div class="card">
+          <h4>Penetration Testing</h4>
+          <p style="color:var(--muted);font-size:13px">Web, mobile, infrastructure, cloud and API testing with detailed reports and remediation guidance.</p>
+        </div>
+        <div class="card">
+          <h4>Incident Response</h4>
+          <p style="color:var(--muted);font-size:13px">Triage, containment & forensics with 24/7 emergency options.</p>
+        </div>
+        <div class="card">
+          <h4>Threat Intelligence</h4>
+          <p style="color:var(--muted);font-size:13px">Custom intelligence to contextualize risk for your organization.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" style="margin-top:22px">
+      <h2>Pricing</h2>
+      <div style="display:flex;gap:12px;margin-top:12px;flex-wrap:wrap">
+        <div class="card" style="flex:1;min-width:220px">
+          <h4>Pay-as-you-go</h4>
+          <p style="color:var(--muted);font-size:13px">Hourly rates with in-platform secure payments.</p>
+        </div>
+        <div class="card" style="flex:1;min-width:220px">
+          <h4>Fixed price projects</h4>
+          <p style="color:var(--muted);font-size:13px">Milestone-based escrow available.</p>
+        </div>
+        <div class="card" style="flex:1;min-width:220px">
+          <h4>Retainer</h4>
+          <p style="color:var(--muted);font-size:13px">For ongoing monitoring & SOC augmentation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:30px">
+      <h2>Get started</h2>
+      <p style="color:var(--muted)">Tell us a little about your requirement and we'll match you with experts.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 380px;gap:18px;margin-top:12px;align-items:start">
+        <form id="contactForm" class="card" aria-label="Contact form">
+          <!-- NOTE: replace the action with your Formspree or backend endpoint -->
+          <input type="hidden" name="_subject" value="New Cyberlink Pro lead">
+
+          <label for="name">Full name</label>
+          <input id="name" name="name" required placeholder="Your full name" style="width:100%;padding:10px;margin:6px 0;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required placeholder="name@company.com" style="width:100%;padding:10px;margin:6px 0;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="6" placeholder="Describe scope, expected timeline, and budget" style="width:100%;padding:10px;margin:6px 0;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+
+          <div style="display:flex;gap:8px;margin-top:10px;align-items:center">
+            <button type="submit" class="btn">Send</button>
+            <div style="color:var(--muted);font-size:13px">We will reply within 24–48 hours.</div>
+          </div>
+
+          <div id="formStatus" style="margin-top:10px;color:var(--muted);font-size:13px" aria-live="polite"></div>
+        </form>
+
+        <aside class="card">
+          <h4>Why choose verified experts?</h4>
+          <ol style="color:var(--muted);font-size:13px;margin:6px 0 0;padding-left:18px">
+            <li>Tested technical skills & verified identity</li>
+            <li>Clear scopes & transparent pricing</li>
+            <li>Secure comms and escrow options</li>
+          </ol>
+          <div style="margin-top:12px;color:var(--muted);font-size:13px">You can also attach reports and evidence securely after initial contact.</div>
+        </aside>
+      </div>
+    </section>
+
+    <footer style="margin-top:38px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div style="color:var(--muted)">© <span id="year"></span> Cyberlink Pro — Built for security teams</div>
+        <div style="color:var(--muted)"><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/sitemap.xml">Sitemap</a></div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Small interactive JS with progressive enhancement & SEO-friendly behavior
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Search form — use pushState to update URL so search engines and users can link results
+    document.getElementById('searchForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const q = document.getElementById('q').value.trim();
+      if(!q) return;
+      const url = new URL(window.location.href);
+      url.searchParams.set('s', q);
+      // Update URL (server should respond to query param) — good for SEO when server-side renders results
+      history.pushState({}, '', url);
+      // For demo: show a simple client-side filter (progressive enhancement)
+      document.querySelectorAll('.profile').forEach(p=>{
+        const t = p.textContent.toLowerCase();
+        p.style.display = t.includes(q.toLowerCase()) ? 'flex' : 'none';
+      });
+    });
+
+    // Contact form: AJAX post to your endpoint (replace URL) — prevents page reload and helps track conversions
+    document.getElementById('contactForm').addEventListener('submit', async function(e){
+      e.preventDefault();
+      const status = document.getElementById('formStatus');
+      const form = e.target;
+      const data = new FormData(form);
+
+      try{
+        // <== REPLACE THE URL BELOW with your form handling endpoint (Formspree, Netlify forms, your API)
+        const endpoint = 'https://formspree.io/f/REPLACE_ME';
+        const res = await fetch(endpoint, {method:'POST', body:data, headers:{'Accept':'application/json'}});
+        if(res.ok){
+          status.textContent = 'Thanks! We received your request.';
+          form.reset();
+        } else {
+          const json = await res.json().catch(()=>null);
+          status.textContent = json && json.error ? json.error : 'There was an error sending the form.';
+        }
+      }catch(err){
+        status.textContent = 'Network error. Please try again.';
+      }
+    });
+
+    // Small accessibility helper: allow keyboard navigation to main regions
+    (function(){
+      const skip = document.createElement('a');
+      skip.href = '#hero-heading';
+      skip.textContent = 'Skip to content';
+      skip.style.position = 'absolute';skip.style.left='-9999px';skip.style.top='auto';skip.style.width='1px';skip.style.height='1px';
+      skip.className = 'sr-only';
+      document.body.prepend(skip);
+    })();
+  </script>
+
+  <!-- Inline CSS class for screen-reader only text -->
+  <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+</body>
+</html>
